@@ -12,3 +12,7 @@ Instead of direct syscalls, Halo’s Hall implements indirect syscalls, making i
 
 - Minimal API Usage — limits interaction with WinAPI functions to lower detection surface.
 
+# Credits
+
+Reenz0h from @SEKTOR7net (Creator of the HalosGate technique)
+Inspired by Halo’s Gate (original idea for SSN discovery/enumeration).
