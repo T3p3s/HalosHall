@@ -15,4 +15,5 @@ Instead of direct syscalls, Halo’s Hall implements indirect syscalls, making i
 # Credits
 
 Reenz0h from @SEKTOR7net (Creator of the HalosGate technique)
+
 Inspired by Halo’s Gate (original idea for SSN discovery/enumeration).
