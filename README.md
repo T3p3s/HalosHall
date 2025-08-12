@@ -12,6 +12,3 @@ Instead of direct syscalls, Halo’s Hall implements indirect syscalls, making i
 
 - Minimal API Usage — limits interaction with WinAPI functions to lower detection surface.
 
-# Why Indirect Syscalls?
-While direct syscalls are fast and effective, they often rely on a predictable stub pattern in ntdll.dll that security products monitor.
-Indirect syscalls introduce a layer of abstraction: execution flow jumps indirectly into the syscall instruction, making it harder for EDRs to hook or trace.
